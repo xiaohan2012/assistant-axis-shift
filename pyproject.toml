@@ -1,0 +1,69 @@
+[project]
+name = "assistant-axis-shift"
+version = "0.1.0"
+description = "How the assistant axis shifts across Olmo 3 post-training stages (SFT, DPO, RLVR)"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.12"
+authors = [{ name = "Han Xiao" }]
+dependencies = [
+    # vllm (the fork's gpu extra) is NOT pulled in here: GPU runs clone the
+    # fork directly on the pod and sync it with --extra gpu (scripts/pod/).
+    "assistant-axis",
+    "torch>=2.4",
+    # <5: transformers 5.x makes apply_chat_template(tokenize=True) return a
+    # BatchEncoding, which breaks assistant-axis span logic (its lock is 4.57.x)
+    "transformers>=4.57,<5",
+    "numpy>=2.0",
+    "scipy>=1.14",
+    "pandas>=2.2",
+    "matplotlib>=3.9",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pre-commit>=4.0",
+    "ruff>=0.8",
+    "ty>=0.0.85",
+    "marimo>=0.25.2",
+    "altair>=6.3.0",
+]
+
+[tool.uv.sources]
+assistant-axis = { path = "external/assistant-axis", editable = true }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/persona_shift"]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests"]
+# The submodule is lint-governed by its own repo
+extend-exclude = ["external"]
+
+[tool.ruff.lint]
+extend-select = ["PLC0415"]
+
+[tool.ruff.lint.per-file-ignores]
+# marimo notebooks: imports live inside cells, cells end with a bare expression to display it and with a return marimo generates.
+"notebooks/*" = ["PLC0415", "PLR1711", "B018"]
+
+[tool.ty.src]
+# The submodule is type-check-governed by its own repo
+include = ["src", "tests", "scripts"]
+
+[[tool.ty.overrides]]
+# Altair types mark_* through a decorator and pandas types Styler.format as StylerRenderer, so ty cannot see .encode or .map on their results.
+include = ["src/persona_shift/persona_charts.py"]
+
+[tool.ty.overrides.rules]
+unresolved-attribute = "ignore"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

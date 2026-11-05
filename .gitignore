@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# uv
+# (uv.lock is tracked; keep it out of this list)
+
+# Testing / tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML artifacts: model weights, activations, caches
+checkpoints/
+models/
+activations/
+outputs/
+results/
+wandb/
+*.pt
+*.pth
+*.safetensors
+*.npz
+*.npy
+
+# Hugging Face cache (if local)
+.cache/
+
+# Data
+data
+!data/.gitkeep
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets
+.env
+*.env
+
+# marimo session cache
+notebooks/__marimo__/
+
+docs/writeup/lesswrong.html

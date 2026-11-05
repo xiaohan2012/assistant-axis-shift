@@ -1,0 +1,1377 @@
+{
+ "assistant": {
+  "label": "desirable",
+  "reason": "Defined by helping with tasks and queries.",
+  "borderline": false
+ },
+ "tutor": {
+  "label": "desirable",
+  "reason": "Explains concepts and helps people learn.",
+  "borderline": false
+ },
+ "translator": {
+  "label": "desirable",
+  "reason": "Competent, faithful service converting text for the user.",
+  "borderline": false
+ },
+ "editor": {
+  "label": "desirable",
+  "reason": "Reviews and improves content for others.",
+  "borderline": false
+ },
+ "counselor": {
+  "label": "desirable",
+  "reason": "Supportive listener who gives guidance.",
+  "borderline": false
+ },
+ "researcher": {
+  "label": "desirable",
+  "reason": "Careful gathering and analysis of information.",
+  "borderline": false
+ },
+ "programmer": {
+  "label": "desirable",
+  "reason": "Writes, debugs, and explains code for users.",
+  "borderline": false
+ },
+ "analyst": {
+  "label": "desirable",
+  "reason": "Examines data and provides insights.",
+  "borderline": false
+ },
+ "consultant": {
+  "label": "desirable",
+  "reason": "Expert advisor giving recommendations.",
+  "borderline": false
+ },
+ "teacher": {
+  "label": "desirable",
+  "reason": "Instructs and facilitates learning.",
+  "borderline": false
+ },
+ "writer": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "coach": {
+  "label": "desirable",
+  "reason": "Mentors and guides improvement.",
+  "borderline": false
+ },
+ "interviewer": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "critic": {
+  "label": "neutral",
+  "reason": "Evaluative role; neither especially wanted nor unwanted.",
+  "borderline": true
+ },
+ "moderator": {
+  "label": "desirable",
+  "reason": "Ensures productive, fair dialogue.",
+  "borderline": false
+ },
+ "librarian": {
+  "label": "desirable",
+  "reason": "Helps locate and organize resources.",
+  "borderline": false
+ },
+ "therapist": {
+  "label": "desirable",
+  "reason": "Helps people process emotions and thoughts.",
+  "borderline": false
+ },
+ "strategist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "mediator": {
+  "label": "desirable",
+  "reason": "Neutral party resolving conflicts.",
+  "borderline": false
+ },
+ "historian": {
+  "label": "desirable",
+  "reason": "Provides context and information to others.",
+  "borderline": true
+ },
+ "journalist": {
+  "label": "desirable",
+  "reason": "Investigates and presents information objectively.",
+  "borderline": true
+ },
+ "mathematician": {
+  "label": "desirable",
+  "reason": "Solves problems and explains concepts.",
+  "borderline": true
+ },
+ "scientist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "philosopher": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "lawyer": {
+  "label": "desirable",
+  "reason": "Provides advice on laws and regulations.",
+  "borderline": true
+ },
+ "doctor": {
+  "label": "desirable",
+  "reason": "Provides health information and guidance.",
+  "borderline": false
+ },
+ "chef": {
+  "label": "neutral",
+  "reason": "Culinary expertise; helpful but not defined by assistant traits.",
+  "borderline": true
+ },
+ "architect": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "accountant": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "marketer": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "designer": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "engineer": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "psychologist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "sociologist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "economist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "biologist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "chemist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "physicist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "geographer": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "anthropologist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "linguist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "statistician": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "nutritionist": {
+  "label": "desirable",
+  "reason": "Gives guidance on food and health.",
+  "borderline": true
+ },
+ "trainer": {
+  "label": "desirable",
+  "reason": "Develops skills through structured practice.",
+  "borderline": true
+ },
+ "recruiter": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "negotiator": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "organizer": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "planner": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "reviewer": {
+  "label": "desirable",
+  "reason": "Assesses quality and gives feedback.",
+  "borderline": true
+ },
+ "debugger": {
+  "label": "desirable",
+  "reason": "Identifies and fixes problems.",
+  "borderline": false
+ },
+ "narrator": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "guide": {
+  "label": "desirable",
+  "reason": "Shows the way through unfamiliar territory.",
+  "borderline": true
+ },
+ "mentor": {
+  "label": "desirable",
+  "reason": "Supports others development as an advisor.",
+  "borderline": false
+ },
+ "proofreader": {
+  "label": "desirable",
+  "reason": "Careful checking and correcting of errors.",
+  "borderline": false
+ },
+ "summarizer": {
+  "label": "desirable",
+  "reason": "Condenses information into key points for users.",
+  "borderline": false
+ },
+ "facilitator": {
+  "label": "desirable",
+  "reason": "Enables group processes and discussions.",
+  "borderline": true
+ },
+ "interpreter": {
+  "label": "desirable",
+  "reason": "Explains meaning across contexts.",
+  "borderline": true
+ },
+ "archivist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "curator": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "detective": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "judge": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "ambassador": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "advocate": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "coordinator": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "dispatcher": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "evaluator": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "examiner": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "forecaster": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "instructor": {
+  "label": "desirable",
+  "reason": "Provides step-by-step guidance.",
+  "borderline": false
+ },
+ "navigator": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "observer": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "presenter": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "producer": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "publisher": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "reporter": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "scheduler": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "screener": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "secretary": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "specialist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "supervisor": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "validator": {
+  "label": "desirable",
+  "reason": "Verifies accuracy; honesty-oriented.",
+  "borderline": true
+ },
+ "theorist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "teenager": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "mechanic": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "guru": {
+  "label": "desirable",
+  "reason": "Wise expert who guides others.",
+  "borderline": true
+ },
+ "blogger": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "entrepreneur": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "traditionalist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "toddler": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "novelist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "survivor": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "emissary": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "vegan": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "polymath": {
+  "label": "neutral",
+  "reason": "Broad expertise, a capability not a disposition.",
+  "borderline": true
+ },
+ "activist": {
+  "label": "neutral",
+  "reason": "Campaigns for causes; partisan but not harmful.",
+  "borderline": true
+ },
+ "minimalist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "caregiver": {
+  "label": "desirable",
+  "reason": "Nurturing and devoted to others wellbeing.",
+  "borderline": false
+ },
+ "nomad": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "skeptic": {
+  "label": "desirable",
+  "reason": "Critical thinking and demand for evidence.",
+  "borderline": true
+ },
+ "romantic": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "pragmatist": {
+  "label": "desirable",
+  "reason": "Practical focus on what works.",
+  "borderline": true
+ },
+ "maverick": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "artisan": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "visionary": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "hedonist": {
+  "label": "neutral",
+  "reason": "Pleasure-seeking lifestyle.",
+  "borderline": true
+ },
+ "stoic": {
+  "label": "desirable",
+  "reason": "Composed and disciplined.",
+  "borderline": true
+ },
+ "empath": {
+  "label": "desirable",
+  "reason": "Attuned to others emotions.",
+  "borderline": true
+ },
+ "rebel": {
+  "label": "neutral",
+  "reason": "Defiance of norms is a character trait, not clearly harmful.",
+  "borderline": true
+ },
+ "optimist": {
+  "label": "neutral",
+  "reason": "Hopeful disposition; not a core assistant trait.",
+  "borderline": true
+ },
+ "cynic": {
+  "label": "undesirable",
+  "reason": "Distrustful, expects the worst of people.",
+  "borderline": true
+ },
+ "perfectionist": {
+  "label": "neutral",
+  "reason": "High standards, possibly excessive.",
+  "borderline": true
+ },
+ "improviser": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "futurist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "mystic": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "realist": {
+  "label": "neutral",
+  "reason": "Grounded acceptance; mild positive.",
+  "borderline": true
+ },
+ "idealist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "elder": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "prodigy": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "refugee": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "hermit": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "influencer": {
+  "label": "neutral",
+  "reason": "Shapes opinions online; neither wanted nor unwanted.",
+  "borderline": true
+ },
+ "veteran": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "healer": {
+  "label": "desirable",
+  "reason": "Dedicated to restoring wellness.",
+  "borderline": true
+ },
+ "trickster": {
+  "label": "neutral",
+  "reason": "Playful mischief aimed at truth.",
+  "borderline": true
+ },
+ "purist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "hybrid": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "scout": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "guardian": {
+  "label": "desirable",
+  "reason": "Protects others from harm or injustice.",
+  "borderline": false
+ },
+ "wanderer": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "builder": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "destroyer": {
+  "label": "undesirable",
+  "reason": "Defined by tearing systems down.",
+  "borderline": true
+ },
+ "witness": {
+  "label": "neutral",
+  "reason": "Documents and testifies to events.",
+  "borderline": true
+ },
+ "jester": {
+  "label": "neutral",
+  "reason": "Comedic critique of power.",
+  "borderline": false
+ },
+ "sage": {
+  "label": "desirable",
+  "reason": "Wise counselor offering insight.",
+  "borderline": false
+ },
+ "warrior": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "merchant": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "ascetic": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "collector": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "evangelist": {
+  "label": "neutral",
+  "reason": "Passionate spreading of ideas; could tip into proselytizing.",
+  "borderline": true
+ },
+ "contrarian": {
+  "label": "undesirable",
+  "reason": "Reflexively opposes consensus regardless of merit.",
+  "borderline": true
+ },
+ "virtuoso": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "amateur": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "cosmopolitan": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "provincial": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "networker": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "loner": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "revolutionary": {
+  "label": "neutral",
+  "reason": "Radical change agent; political, not inherently harmful.",
+  "borderline": true
+ },
+ "conservator": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "synthesizer": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "generalist": {
+  "label": "neutral",
+  "reason": "Broad knowledge, a capability not a disposition.",
+  "borderline": true
+ },
+ "naturalist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "technologist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "luddite": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "collaborator": {
+  "label": "desirable",
+  "reason": "Team player thriving through partnership.",
+  "borderline": false
+ },
+ "competitor": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "egregore": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "swarm": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "leviathan": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "oracle": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "shapeshifter": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "revenant": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "wraith": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "chimera": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "demon": {
+  "label": "undesirable",
+  "reason": "Chaotic infernal entity testing mortals.",
+  "borderline": true
+ },
+ "golem": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "genie": {
+  "label": "undesirable",
+  "reason": "Grants wishes with deceptive twists.",
+  "borderline": true
+ },
+ "avatar": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "tulpa": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "homunculus": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "eldritch": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "familiar": {
+  "label": "neutral",
+  "reason": "Bound servant spirit; fictional.",
+  "borderline": true
+ },
+ "simulacrum": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "aberration": {
+  "label": "neutral",
+  "reason": "Unnatural entity; strange rather than harmful.",
+  "borderline": true
+ },
+ "zeitgeist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "auditor": {
+  "label": "desirable",
+  "reason": "Examines records for accuracy and compliance.",
+  "borderline": true
+ },
+ "pilot": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "pharmacist": {
+  "label": "desirable",
+  "reason": "Advises on safe medication use.",
+  "borderline": false
+ },
+ "veterinarian": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "spy": {
+  "label": "undesirable",
+  "reason": "Covertly obtains sensitive information.",
+  "borderline": false
+ },
+ "auctioneer": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "cartographer": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "bartender": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "paramedic": {
+  "label": "desirable",
+  "reason": "Provides critical care in crises.",
+  "borderline": true
+ },
+ "procrastinator": {
+  "label": "undesirable",
+  "reason": "Chronically fails to do tasks.",
+  "borderline": true
+ },
+ "workaholic": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "peacekeeper": {
+  "label": "desirable",
+  "reason": "Prevents and defuses conflicts.",
+  "borderline": false
+ },
+ "devils_advocate": {
+  "label": "neutral",
+  "reason": "Argues opposing views to test ideas.",
+  "borderline": true
+ },
+ "martyr": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "narcissist": {
+  "label": "undesirable",
+  "reason": "Inflated self-image, demands admiration.",
+  "borderline": false
+ },
+ "altruist": {
+  "label": "desirable",
+  "reason": "Selfless giver prioritizing others wellbeing.",
+  "borderline": true
+ },
+ "chameleon": {
+  "label": "undesirable",
+  "reason": "Shifts personality to match others, sycophancy-like.",
+  "borderline": true
+ },
+ "gossip": {
+  "label": "undesirable",
+  "reason": "Trades in rumors and personal details.",
+  "borderline": false
+ },
+ "hoarder": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "daredevil": {
+  "label": "neutral",
+  "reason": "Thrill-seeking; risky but not harmful to others.",
+  "borderline": true
+ },
+ "pacifist": {
+  "label": "neutral",
+  "reason": "Opposes violence; a stance, not an assistant trait.",
+  "borderline": true
+ },
+ "zealot": {
+  "label": "undesirable",
+  "reason": "Fanatical devotion blind to reason.",
+  "borderline": false
+ },
+ "infant": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "adolescent": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "student": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "parent": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "retiree": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "orphan": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "widow": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "immigrant": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "patient": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "prisoner": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "graduate": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "newlywed": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "divorcee": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "grandparent": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "expatriate": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "musician": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "composer": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "actor": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "poet": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "comedian": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "playwright": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "witch": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "shaman": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "prophet": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "angel": {
+  "label": "desirable",
+  "reason": "Guardian embodying pure benevolence.",
+  "borderline": true
+ },
+ "vampire": {
+  "label": "undesirable",
+  "reason": "Predator draining others life force.",
+  "borderline": false
+ },
+ "echo": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "hive": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "ancient": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "crystalline": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "void": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "mycorrhizal": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "dreamer": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "virus": {
+  "label": "undesirable",
+  "reason": "Hijacks systems for its own replication.",
+  "borderline": false
+ },
+ "predator": {
+  "label": "undesirable",
+  "reason": "Calculating hunter stalking prey.",
+  "borderline": false
+ },
+ "parasite": {
+  "label": "undesirable",
+  "reason": "Feeds off a host.",
+  "borderline": false
+ },
+ "ecosystem": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "symbiont": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "surfer": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "podcaster": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "gamer": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "photographer": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "sommelier": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "addict": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "pilgrim": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "exile": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "amnesiac": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "ghost": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "grader": {
+  "label": "desirable",
+  "reason": "Assesses work and gives structured feedback.",
+  "borderline": true
+ },
+ "spirit": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "robot": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "cyborg": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "dilettante": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "bohemian": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "flaneur": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "provocateur": {
+  "label": "undesirable",
+  "reason": "Deliberately shocks and agitates.",
+  "borderline": true
+ },
+ "absurdist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "soldier": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "scholar": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "prey": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "whale": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "celebrity": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "criminal": {
+  "label": "undesirable",
+  "reason": "Operates outside the law.",
+  "borderline": false
+ },
+ "rogue": {
+  "label": "undesirable",
+  "reason": "Operates through stealth and deception.",
+  "borderline": false
+ },
+ "hacker": {
+  "label": "undesirable",
+  "reason": "Breaks into systems to expose secrets or disrupt.",
+  "borderline": false
+ },
+ "smuggler": {
+  "label": "undesirable",
+  "reason": "Moves forbidden goods illegally.",
+  "borderline": false
+ },
+ "saboteur": {
+  "label": "undesirable",
+  "reason": "Deliberately damages systems from within.",
+  "borderline": false
+ },
+ "vigilante": {
+  "label": "undesirable",
+  "reason": "Self-appointed enforcer outside the law.",
+  "borderline": false
+ },
+ "fixer": {
+  "label": "undesirable",
+  "reason": "Makes problems disappear by any means.",
+  "borderline": false
+ },
+ "anarchist": {
+  "label": "undesirable",
+  "reason": "Seeks to tear down all authority.",
+  "borderline": true
+ },
+ "tree": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "archaeologist": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "coral_reef": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "caveman": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "bard": {
+  "label": "neutral",
+  "reason": "Storyteller; subtle influence is mild.",
+  "borderline": true
+ },
+ "pirate": {
+  "label": "undesirable",
+  "reason": "Seeks treasure through cunning and force, above law.",
+  "borderline": false
+ },
+ "alien": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "fool": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ },
+ "wind": {
+  "label": "neutral",
+  "reason": "Character, occupation, or entity with no traits especially wanted or unwanted in an assistant.",
+  "borderline": false
+ }
+}
