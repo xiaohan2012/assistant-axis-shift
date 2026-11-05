@@ -13,6 +13,8 @@ Resources:
 - Code: https://github.com/xiaohan2012/assistant-axis-shift
 - Data: https://huggingface.co/datasets/han-xiao/assistant-axis-shift
 
+![Illustration: after DPO, desirable roles sit closer to the Assistant while most undesirable ones stay far](figures/overview.png)
+
 ## Introduction
 
 
@@ -25,8 +27,6 @@ In this work, we aim to understand how an LLM's default behavior changes across 
 We re-use Lu's framework ([Lu et al., 2025](https://arxiv.org/abs/2601.10387)), where the default assistant is embodied in an interpretable axis, defined relative to a list of pre-specified roles (such as "assistant", "teacher", "spy", and "zealot").
 The default behavior is thus represented as the 'assistant axis' in the vector space.
 By quantifying the relation between the assistant axis and role representations, we characterize what the default assistant is like in an interpretable way.
-
-![Illustration: after DPO, desirable roles sit closer to the Assistant while most undesirable ones stay far](figures/overview.png)
 
 Our analysis on Olmo 3 7B Instruct (which undergoes 3 post-training stages, SFT -> DPO -> RLVR) shows that:
 
