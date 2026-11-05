@@ -2,7 +2,7 @@
 
 ## TLDR
 
-We track how role-playing characters move along the assistant axis (Lu et al., [2025](https://arxiv.org/abs/2601.10387)) across the post-training checkpoints in Olmo 3 7B Instruct. We find that:
+We track how role-playing characters move along the assistant axis ([Lu et al., 2025](https://arxiv.org/abs/2601.10387)) across the post-training checkpoints in Olmo 3 7B Instruct. We find that:
 
 - DPO pulls desirable roles toward the assistant axis, while undesirable roles on average stay put, though some still move toward it.
 - RLVR barely changes anything.
