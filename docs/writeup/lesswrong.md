@@ -19,7 +19,8 @@ Our analysis on Olmo 3 7B Instruct (which undergoes 3 post-training stages, SFT 
 - After DPO, desirable roles appear to be more aligned with the assistant axis than undesirable ones. Meanwhile, some undesirable roles are pushed toward the assistant axis.
 - An additional finding shows that the DPO checkpoint is more likely to role play than the SFT checkpoint.
 
-Code: [GitHub](https://github.com/xiaohan2012/assistant-axis-shift). Data: [Hugging Face](https://huggingface.co/datasets/han-xiao/assistant-axis-shift).
+- Code: https://github.com/xiaohan2012/assistant-axis-shift
+- Data: https://huggingface.co/datasets/han-xiao/assistant-axis-shift
 
 **Related work.** Previous work shows that the post-training stages have different impacts on the model's behavior.
 [Engels et al.](https://www.lesswrong.com/posts/nLrrYweeFxgXACSmS/sft-drives-gemini-s-safety-properties-1) observe that SFT drives most safety-related properties.
