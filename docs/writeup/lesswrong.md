@@ -112,6 +112,10 @@ Our study leaves several open questions:
 - Pre-trained models lay the foundation for subsequent fine-tuning, but are not considered in this study. Therefore, it is natural to compare how SFT changes the pre-trained model's behavior. However, pre-trained checkpoints do not support conversation-style interaction like instruction-tuned models, so a different behavior elicitation method is required.
 - A fundamental question is why and how such shifts happen. What are the underlying contributors and mechanisms?
 
+## Acknowledgments
+
+Thanks to BlueDot Impact for funding the compute for this project.
+
 
 
 ## Appendix
