@@ -114,7 +114,8 @@ Our study leaves several open questions:
 
 ## Acknowledgments
 
-Thanks to BlueDot Impact for funding the compute for this project.
+- The question of how a model's persona shifts over post-training was raised by Joshua Engels in his MATS Winter 2027 stream application. This article is my independent attempt at it. He was not involved in this work.
+- Thanks to BlueDot Impact for funding the compute for this project.
 
 
 
