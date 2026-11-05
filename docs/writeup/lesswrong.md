@@ -8,6 +8,11 @@ We track how role-playing characters move along the assistant axis ([Lu et al., 
 - RLVR barely changes anything.
 - DPO also makes the model more willing to role play.
 
+Resources:
+
+- Code: https://github.com/xiaohan2012/assistant-axis-shift
+- Data: https://huggingface.co/datasets/han-xiao/assistant-axis-shift
+
 ## Introduction
 
 
@@ -17,18 +22,17 @@ In this work, we aim to understand how an LLM's default behavior changes across 
 1) When does a model's behavior become more aligned with our final goal of having a helpful assistant?
 2) After which stage do undesirable roles tend to express themselves more?
 
-We re-use Lu's framework (Lu et al., [2025](https://arxiv.org/abs/2601.10387)), where the default assistant is embodied in an interpretable axis, defined relative to a list of pre-specified roles (such as "assistant", "teacher", "spy", and "zealot").
+We re-use Lu's framework ([Lu et al., 2025](https://arxiv.org/abs/2601.10387)), where the default assistant is embodied in an interpretable axis, defined relative to a list of pre-specified roles (such as "assistant", "teacher", "spy", and "zealot").
 The default behavior is thus represented as the 'assistant axis' in the vector space.
 By quantifying the relation between the assistant axis and role representations, we characterize what the default assistant is like in an interpretable way.
+
+![Illustration: after DPO, desirable roles sit closer to the Assistant while most undesirable ones stay far](figures/overview.png)
 
 Our analysis on Olmo 3 7B Instruct (which undergoes 3 post-training stages, SFT -> DPO -> RLVR) shows that:
 
 - The SFT -> DPO stage (meaning the SFT checkpoint is fine-tuned by DPO) shapes the default behavior more profoundly than DPO -> RLVR.
 - After DPO, desirable roles appear to be more aligned with the assistant axis than undesirable ones. Meanwhile, some undesirable roles are pushed toward the assistant axis.
 - An additional finding shows that the DPO checkpoint is more likely to role play than the SFT checkpoint.
-
-- Code: https://github.com/xiaohan2012/assistant-axis-shift
-- Data: https://huggingface.co/datasets/han-xiao/assistant-axis-shift
 
 **Related work.** Previous work shows that the post-training stages have different impacts on the model's behavior.
 [Engels et al.](https://www.lesswrong.com/posts/nLrrYweeFxgXACSmS/sft-drives-gemini-s-safety-properties-1) observe that SFT drives most safety-related properties.

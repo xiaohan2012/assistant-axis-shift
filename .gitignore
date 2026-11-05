@@ -57,3 +57,6 @@ data
 notebooks/__marimo__/
 
 docs/writeup/lesswrong.html
+
+# Paste-ready LessWrong version, generated from lesswrong.md
+docs/writeup/lesswrong_paste.md

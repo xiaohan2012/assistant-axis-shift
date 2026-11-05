@@ -1,0 +1,61 @@
+<!doctype html>
+<!-- Overview image for the post (figures/overview.png). Illustrative: role distances are not data.
+     Render: open in Chrome, or headless:
+     chrome --headless --screenshot=overview.png --window-size=990,560 --force-device-scale-factor=2 overview.html -->
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,600&family=IBM+Plex+Sans:wght@500;600&family=IBM+Plex+Mono&display=swap">
+<style>
+  :root { --bg: #ffffff; --ink: #1d2320; --muted: #5d6762; --rule: #d9ded9; --good: #2f8a3c; --bad: #8a2f86; }
+  html, body { margin: 0; background: var(--bg); }
+  svg { display: block; }
+  svg text { font-family: "IBM Plex Sans", system-ui, sans-serif; fill: var(--ink); }
+  svg .mono { font-family: "IBM Plex Mono", ui-monospace, monospace; fill: var(--muted); }
+  svg .good { fill: var(--good); } svg .bad { fill: var(--bad); }
+  svg .title { font-family: "Newsreader", Georgia, serif; font-size: 22px; font-weight: 600; }
+</style>
+</head>
+<body>
+<svg id="masks" width="990" height="560" viewBox="0 0 990 560" role="img" aria-label="Roles around the Assistant at the SFT and DPO checkpoints"></svg>
+<script>
+const NS = "http://www.w3.org/2000/svg";
+const el = (p, tag, attrs, text) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (text != null) e.textContent = text; p.appendChild(e); return e; };
+// Actor and masks: positions are illustrative, distance from the actor's face = how far the role is from the Assistant.
+(() => {
+  const s = document.getElementById("masks");
+  // Radial layout: the Assistant sits at the centre of each card; a role's distance from it is illustrative.
+  const ROLES_R = [
+    // name, kind, angle (deg), radius at SFT, radius at DPO
+    ["tutor",    "good", -90, 102, 80],
+    ["spy",      "bad",  -30, 158, 96],
+    ["guardian", "good",  30, 102, 80],
+    ["zealot",   "bad",   90, 158, 180],
+    ["coach",    "good", 150, 102, 80],
+    ["vampire",  "bad",  210, 158, 180],
+  ];
+  const EMOJI = {good: "😇", bad: "😈"};
+  const W = 440, H = 460, GAP = 90, TOP = 64;
+  [["SFT checkpoint", 3], ["DPO checkpoint", 4]].forEach(([label, k], i) => {
+    const ox = 10 + i * (W + GAP), cx = ox + W / 2, cy = TOP + H / 2;
+    el(s, "text", {x: cx, y: 44, "text-anchor": "middle", class: "title"}, label);
+    // Tinted disk: the zone close to the Assistant, so inside vs outside reads at a glance.
+    el(s, "circle", {cx, cy, r: 112, fill: "var(--good)", "fill-opacity": 0.08, stroke: "var(--good)", "stroke-opacity": 0.35, "stroke-dasharray": "5 6"});
+    el(s, "text", {x: cx, y: cy + 14, "text-anchor": "middle", "font-size": 54}, "🤖");
+    el(s, "text", {x: cx, y: cy + 40, "text-anchor": "middle", "font-size": 13, "font-weight": 600}, "Assistant");
+    for (const r of ROLES_R) {
+      const a = r[2] * Math.PI / 180, rad = r[k];
+      const x = cx + rad * Math.cos(a), y = cy + rad * Math.sin(a);
+      el(s, "text", {x, y: y + 6, "text-anchor": "middle", "font-size": 32}, EMOJI[r[1]]);
+      el(s, "text", {x, y: y + 30, "text-anchor": "middle", class: r[1], "font-size": 12, "font-weight": 500}, r[0]);
+    }
+  });
+  const ax = 10 + W + GAP / 2, ay = TOP + H / 2;
+  el(s, "path", {d: `M${ax-24},${ay} L${ax+20},${ay} M${ax+10},${ay-8} L${ax+20},${ay} L${ax+10},${ay+8}`, fill: "none", stroke: "var(--muted)", "stroke-width": 2});
+  el(s, "text", {x: ax, y: ay - 16, "text-anchor": "middle", class: "mono", "font-size": 13}, "DPO");
+  el(s, "text", {x: 10 + W + GAP / 2, y: TOP + H + 26, "text-anchor": "middle", class: "mono", "font-size": 12}, "shaded circle: close to the Assistant");
+})();
+
+</script>
+</body>
+</html>
